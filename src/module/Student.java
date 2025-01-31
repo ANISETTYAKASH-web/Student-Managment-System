@@ -1,5 +1,5 @@
 package src.module;
-class students 
+public class Student 
 {
   private String id;
   private String name;
@@ -7,7 +7,7 @@ class students
   private float grade;   
 
 
-  public students(String id,String name,int age,float grade)
+  public Student(String id,String name,int age,float grade)
   {
     this.age=age;
     this.grade=grade;
