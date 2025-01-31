@@ -5,5 +5,6 @@ public class DuplicateStudentIdException extends Exception{
   {
     super("student already exists");
   }
+}  
   
-}
+
